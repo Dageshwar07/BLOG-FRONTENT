@@ -1,6 +1,4 @@
 import './App.css';
-import Post from "./Post";
-import Header from "./Header";
 import {Route, Routes} from "react-router-dom";
 import Layout from "./Layout";
 import IndexPage from "./pages/IndexPage";
@@ -10,6 +8,7 @@ import {UserContextProvider} from "./UserContext";
 import CreatePost from "./pages/CreatePost";
 import PostPage from "./pages/PostPage";
 import EditPost from "./pages/EditPost";
+
 
 function App() {
   return (
